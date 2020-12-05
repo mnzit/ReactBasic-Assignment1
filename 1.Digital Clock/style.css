@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #1E1E1E;
+}
+
+#digital-clock{
+    color:white;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 5px;
+    opacity: 0.6;
+    font-family: 'Press Start 2P', cursive;
+    transition: all 1s;
+}

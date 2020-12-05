@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+    background-color: #a09b9b;
+}
+
+#center-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid black;
+    padding:20px;
+    transition: all 0.3s;
+    background-color: rgb(106, 112, 112);
+}
+#tip-amount{
+    border: 1px solid black;
+    padding:18px;
+    transition: all 0.3s;
+    text-align: center;
+    background-color: rgb(95, 100, 100);
+}
+
+#tip-calculator{
+    margin-top: 12px;
+    transition: all 0.3s;
+}
+
+#reset{
+    float:right;
+}

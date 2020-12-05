@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script async defer src="index.js"></script>
+</head>
+
+<body>
+    <div id="center-container">
+        <div id="tip-amount"></div>
+        <div id="tip-calculator">
+            <table>
+                <tr>
+                    <td><label for="amount">Amount</label></td>
+                    <td><input type="number" id="amount" placeholder="Enter amount"></td>
+                </tr>
+                <tr>
+                    <td><label for="tip">Tip (%)</label></td>
+                    <td><input type="number" id="tip" min="1" max="100" placeholder="Enter tip"></td>
+                </tr>
+            </table>
+        </div>
+        <button onclick="reset()" id="reset">Reset</button>
+    </div>
+</body>
+
+</html>
